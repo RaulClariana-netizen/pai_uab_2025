@@ -1,0 +1,99 @@
+h1{
+    font-family: cambria;
+    font-weight: normal;
+}
+
+nav{
+    font-variant-caps: all-small-caps;
+    font-size: 20px;
+    height: 100px;
+    width: 80%;
+    float:right;
+}
+
+nav ul li{
+    display: inline;
+    padding-left: 20px;
+    float: right;
+    margin-right: 50px;
+    padding-top: 10px;
+}
+
+header{
+    width: 20%;
+    height: 100px;
+    float: left;
+}
+
+div#primera{
+    float:left;
+    width: 30%;
+    margin-right:45px;
+    margin-top: 30px;
+}
+
+div#segunda{
+    float:left;
+    width: 30%;
+    margin-right:45px;
+    margin-top: 30px;
+}
+
+div#tercera{
+    float:left;
+    width: 30%;
+    margin-right:45px;
+    margin-top: 30px;
+}
+
+.centrat{
+    margin:0 auto;
+    width:95%;
+}
+
+.centrat p{
+    font-size: 20px;
+    font-variant-caps: all-small-caps;
+    text-align: center;
+}
+
+.logo-disney{
+    display: inline-block;
+    width: 20%; 
+    max-width: 250px; 
+    height: auto; 
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+.enlaces{
+    text-align: center;
+}
+
+div#instagram{
+    float:left;
+    width: 25%;
+    margin-right:0 auto;
+    margin-top: 30px;
+}
+
+div#facebook{
+    float:left;
+    width: 25%;
+    margin-right:0 auto;
+    margin-top: 30px;
+}
+
+div#twitter{
+    float:left;
+    width: 25%;
+    margin-right:0 auto;
+    margin-top: 30px;
+}
+
+div#youtube{
+    float:left;
+    width: 25%;
+    margin-right:0 auto;
+    margin-top: 30px;
+}
