@@ -16,7 +16,7 @@
 // function anyTraspas(any){
 //     if (any%400===0){
  //        return any + "És un any de traspàs";
- //    } else if (any%100===0) {
+ //    } else if (any%100===0 && any%400!==0) {
 //         return any + "No és un any de traspàs";
  //   } else if (any%4===0) {
   //      return any + "És un any de traspàs";
