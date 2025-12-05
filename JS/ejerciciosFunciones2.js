@@ -205,12 +205,16 @@
 // residu de dividir 11 entre 2, 3, 4, 5, 6, 7, 8, 9 o 10 és 0. Si és 0 en algun cas, no és primer.
 // (Nota: En realitat només cal provar si és divisible els n/2 nombres més petits que ell).
 function primer(num){
-    for (let i = 2; i<num/2; i++)[
-        if (num===0){
-            return "El numero " + num + " no és primer."
-            break;
-        } else if(num%i==0){
-            return 
-        }
-    ]
+    if (num===0 || num===1){
+            return "Fals";
+    }
+    for (let i = 2; i<num/2; i++){
+        if(num%i==0){
+            return "Fals";
+        } 
+    }return "Cert";
 }
+
+let numero = parseInt(Prompt("Introduce un numero y comprobaremos si es primo: "));
+let resultado = primer(numero);
+console.log(resultado);
